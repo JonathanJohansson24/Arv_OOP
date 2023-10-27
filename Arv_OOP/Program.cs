@@ -15,7 +15,9 @@
 
             Orangutang orangutang = new Orangutang("Orangutang", "Bananas", "King Louie", 20, "Orange", "Monkey", true);
 
-            Animals[] animals = { horses, monkeys, mouses, gorilla, orangutang};
+            Horses horsesDefault = new Horses();
+
+            Animals[] animals = { horses, monkeys, mouses, gorilla, orangutang, horsesDefault };
 
             Monkeys[] differentmonkeys = { monkeys, gorilla, orangutang };
             foreach (Animals animal in animals)
